@@ -1,0 +1,197 @@
+[
+    {
+        "type": "AR",
+        "projectName": "AR Bean bag Toss | 2021",
+        "githubLink": "https://github.com/tankankita/AR-Bean-Bag-Toss",
+        "hasVideo": false,
+        "videoLink": "",
+        "imageName": "corn-hole-board.png",
+        "infoLine1": "Analyse and scan surrounding to place the board",
+        "infoLine2": "Click on the screen to throw bean bag. The slider adjusts the velocity of the bean bag."
+    },
+
+
+    {
+        "type": "VR",
+        "projectName": "Space Cadet | 2021",
+        "hasVideo": true,
+        "videoLink": "https://www.linkedin.com/feed/update/urn:li:activity:6815299301019926528/",
+        "githubLink": "https://github.com/tankankita/Space-Cadet",
+        "imageName": "space-shooter.png",
+        "infoLine1": "Save yourself from space enemies and earn points by killing them"
+    },
+    {
+        "type": "VR",
+        "projectName": "VR Bean bag Toss | 2021",
+        "hasVideo": true,
+        "videoLink": "https://www.linkedin.com/feed/update/urn:li:activity:6820738211162152960/",
+        "githubLink": "https://github.com/tankankita/VR-Bean-Bag-Toss",
+        "imageName": "corn-hole-board.png",
+        "infoLine1": "Enjoy in Canyons and mountains to enjoy a BeanBag Toss",
+        "infoLine2": "Grab the bean bag and use hand genstures to aim of the hole."
+    },
+    {
+        "type": "VR",
+        "projectName": "Ghost Buster | 2021",
+        "hasVideo": true,
+        "videoLink": "https://www.linkedin.com/feed/update/urn:li:activity:6818562997838053376/",
+        "githubLink": "https://github.com/tankankita/GhostChaser",
+        "imageName": "john-lemon.png",
+        "infoLine1": "John Lemon on his way to resue him from being busted by the ghosts",
+        "infoLine2": "Used AI nav mesh to help ghosts find John Lemon"
+    },
+    {
+        "type": "VR",
+        "projectName": "Block Shooter | 2021",
+        "hasVideo": true,
+        "videoLink": "https://www.linkedin.com/feed/update/urn:li:activity:6813555678360289280/",
+        "githubLink": "https://github.com/tankankita/BlockShooter",
+        "imageName": "block-shooter.png",
+        "infoLine1": "Simple FPS game"
+    },
+
+
+
+    
+    {
+        "type": "M",
+        "projectName": "Auto Gallery | 2019",
+        "githubLink": "https://github.com/miss-tank/Auto-Gallery",
+        "imageName": "red-lights-car.jpg",
+        "infoLine1": "The main activity in the app displays a grid. Each grid cell contains a thumbnail picture of a car above the name of the car’s manufacturer.",
+        "infoLine2": "The thumbnails are separated by thin spaces (5 dp) uniformly on all four sides when the grid is displayed on a Nexus 5 device.",
+        "infoLine3": "Each grid cell supports two kinds of functionality, depending on whether an app viewer performs a short vs. a long click on a cell."
+    },
+    {
+        "type": "M",
+        "projectName": "Perfect Coffee | 2020",
+        "githubLink": "https://github.com/miss-tank/Perfect-Coffee",
+        "imageName": "coffee.jpg",
+        "infoLine2": "Simple android application containing 2 activities. This app allows user to order the coffee of their style.",
+        "infoLine3": "It manually allows you to enter the amount of ingredients such as Caffine, Whip Cream, etc., which will make your day even better!!"
+    },
+     {
+        "type": "M",
+        "projectName": "HT Designs | 2019",
+        "githubLink": "https://github.com/miss-tank/HT-Designs",
+        "imageName": "white-car.jpg",
+        "infoLine1": "Simple android application with 2 activities. This application describes the website of htdesigns which consists of the portfolio of a successful Automobile Engineer, Harshad Tank.",
+        "infoLine3": " It also gives a summary of his work through onclick event which will direct user to his website."
+    },
+    {
+        "type": "M",
+        "projectName": "Chicago View | 2019",
+        "githubLink": "https://github.com/miss-tank/Chicago-Landmarks",
+        "imageName": "chicago.jpg",
+        "infoLine2": "For this project I have designed and coded two new Android apps meant to work together on an Android Nexus 9 tablet running Nougat (API level 25)"
+    },
+    {
+        "type": "M",
+        "projectName": "Federal Cash | 2018",
+        "githubLink": "https://github.com/miss-tank/Federal-Cash",
+        "imageName": "cash.jpg",
+        "infoLine1": "This project includes 2 Android applications which work together. The first app, named FedCash, takes as input a year or a date range from an interactive user.",
+        "infoLine2": "This app uses a second app, named TreasuryServ, to access a database maintained by the US Department of the Treasury. T database is found at URL http://treasury.io/, which supports most networking protocols, such as JSON and HTTP Clients. ",
+        "infoLine3": "In order not to block its user interface during network operations, TreasuryServ defines a bound service in order to access the database."
+    },
+    {
+        "type": "M",
+        "projectName": "Contact | 2018",
+        "githubLink": "https://github.com/miss-tank/Contact-App",
+        "imageName": "call.jpg",
+        "infoLine1": "The app starts off with a main activity containing a welcome message and a button. Upon pressing the button,your app displays a second activity containing a one-line editor field, a button, and a read-only text view.",
+        "infoLine2": " The second activity allows the interactive user to enter the first and last names of a person in the editor field.When the button in his activity is pressed, your app switches to a different app for adding a new contact with the specified first and last name.",
+        "infoLine3": "This app could be the built-in Contacts app in the device, or a different app with similar functionality that the device’s user installed on the device. Now the device’s user has a chance to enter the new contact’s information."
+    },
+    {
+        "type": "M",
+        "projectName": "Guess 4 | 2018",
+        "githubLink": "https://github.com/miss-tank/Guess-Four-Android-Game",
+        "imageName": "guess.jpg",
+        "infoLine1": "In this game, each of two players sets up a secret sequence of four decimal digits, where each digit is not repeated. The two players take turns guessing the sequence of digits of their opponent",
+        "infoLine2": "A player responds to an opponent’s guess by specifying the number of digits that were successfully guessed in the correct position and the number of digits that were successfully guessed but in the wrong positions.",
+        "infoLine3": "This application has two background threads play against each other while also updating the user interface with their moves.The first thread to correctly guess the opposing thread’s number wins the game."
+    },
+   
+    {
+        "type": "M",
+        "projectName": "UIC Navigation | 2019",
+        "githubLink": "https://github.com/miss-tank/UIC_Navigation_iOS",
+        "imageName": "UIC.jpeg",
+        "infoLine2": "An iOS Application which will allow user to check all department locations of University of Illinois at Chicago and navigate them from their current location by integrating Google Maps."
+    },
+
+
+
+    {
+        "type": "P",
+        "projectName": "RSA | 2019",
+        "githubLink": "https://github.com/miss-tank/RSA",
+        "imageName": "rsa.png",
+        "infoLine1": "All clients will connect to the central server. When sending a message, the client first sends the message to the central server which will then forward the message to the desired client or clients. ",
+        "infoLine2": "A clients does not connect directly to another client. Assumption is that, the central server's network information (ip address and port number) is well known by the user of the client program.",
+        "infoLine3": "Each client program will have a display of a list of the persons currently connected to the central server. As a new person connects to the central server, a displayed list of names at each client needs to be updated to reflect the new person joining the group (or chat room)."
+    },
+    {
+        "type": "P",
+        "projectName": "CTA Analysis | 2019",
+        "githubLink": "https://github.com/miss-tank/CTA-Ridership-Analysis",
+        "imageName": "cta-trains.jpg",
+        "infoLine1": "The program is to analyze a database of Ridership about Chicago’s CTA system. Using the SQL Server database of CTA data, and I have allowed the user to investigate the stations and stops in the system, as well as ridership data. When the application starts, the UI elements are empty.",
+        "infoLine2": "STEP1: the user selects File >> Load to load the stations in the left- most listbox. <br> STEP2: The user selects a station from the list, and the UI elements of #2 are populated —ridership data as well as stops.",
+        "infoLine3": "Station name and total ridership; in my design this is invoked through a menu command and displayed"
+    },
+    {
+        "type": "P",
+        "projectName": "Divvy Analysis | 2019",
+        "githubLink": "https://github.com/miss-tank/CTA-Ridership-Analysis",
+        "imageName": "divvy.jpg",
+        "infoLine1": "The program is to analyze Divvy bike ridership data,which is being provided as a set of 1 or more CSV files and residing within a single folder. ",
+        "infoLine2": "The program should input the data from these 6 files and perform the following analysis: The user inputs the name of the folder, and the program inputs the data from all files in this folder.",
+        "infoLine3": "The program then proceeds to perform a variety of computations of % of men riders, % of women riders, average ages, ride duration based on riders."
+    },
+    
+    {
+        "type": "P",
+        "projectName": "Sudoku | 2019",
+        "githubLink": "https://github.com/miss-tank/Sudoku",
+        "imageName": "sudoku.png",
+        "infoLine1": "The purpose of this project is to help the user solve a sudoku game. Users are provided with hints if they are having a hard time moving forward with the game.",
+        "infoLine2": "There are various functions and algorithms included in the game. The algorithms in the game are: Single Alg, Hidden Alg, Naked Pair Alg, Locked Candidate Alg."
+    },
+
+
+
+    {
+        "type": "W",
+        "projectName": "Future of Retail | 2019",
+        "githubLink": "https://miss-tank.github.io/Base7Labs",
+        "videoLink": "https://miss-tank.github.io/Base7Labs/",
+        "imageName": "blue-bmw.png",
+        "infoLine1": "Research possible future of Retail for Automobiles",
+        "infoLine2": "Created a website to showcase the reasearch and demonstrate application"
+    },
+    {
+        "type": "W",
+        "projectName": "Transit ETA | 2018",
+        "githubLink": "https://github.com/miss-tank/CtaTrainETA",
+        "imageName": "cta-trains.jpg",
+        "infoLine2": "This is a Web application which shows the ETA of the train arriving based on the station chosen by the rider.",
+        "infoLine3": "This also uses a database which stores your favourites which makes your life easier and youc ould have access to it easily and not time consuming."
+    },
+    {
+        "type": "W",
+        "projectName": "Food Inspection | 2018",
+        "githubLink": "https://miss-tank.github.io/IT202/project3/index.html",
+        "imageName": "food.jpeg",
+        "infoLine3": "This is a Web Application which allows you to search a food restaurant using zipcode and other filters and plots a marker on the map based on the choices."
+    },
+    
+    {
+        "type": "W",
+        "projectName": "Offline Weather| 2018",
+        "githubLink": "https://miss-tank.github.io/IT202/project5/index.html",
+        "imageName": "weather.jpg",
+        "infoLine3": "Simple Weather Web App which shows the weather even in an offline mode."
+    }
+]

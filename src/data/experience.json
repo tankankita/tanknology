@@ -1,0 +1,78 @@
+[
+    {
+        "startYear": "SEPT 2022",
+        "endYear": "DEC 2023",
+        "companyName": "SNAPSHEET",
+        "jobTitle": "SOFTWARE ENGINEER",
+        "description": [
+            "Extensively implemented PDF parsers and developed multiple estimating tools, tabular web pages, and components for insurance providers, ensuring seamless integration with large datasets while maintaining an intuitive design and response time, leveraging Node.js and React.js best practices.",
+            "Collaborated proactively with designers to ensure timely and continuous coordination, upholding and adapting design standards as necessary for a cohesive and polished visual representation as per user research.",
+            "Developed monitoring dashboards on Periscope and New Relic to track feature usage, efficiency, and error rates. Utilized optimized SQL queries to retrieve data from SQL databases contributing to enhanced data-driven insights.",
+            "Established multiple CI/CD pipelines using AWS Cloudformation, Code Pipeline, Lambda, and API Gateway.",
+            "Mentored interns on the team over one year, providing guidance and support to cultivate their skills and knowledge, resulting in their successful integration into project workflows and achievement of professional milestones.",
+            "Efficiently tracked tasks utilizing JIRA and managed code within GitHub in adherence to Agile methodology during sprints.",
+            "Performed code reviews to offer constructive feedback and ensure best practices fostering a collaborative environment."
+        ],
+        "logo": "snapsheet-logo.png",
+        "companySite":"https://www.snapsheetclaims.com/"
+    },
+    {
+        "startYear": "SEPT 2018",
+        "endYear": "AUG 2022",
+        "companyName": "MORNINGSTAR INC",
+        "jobTitle": "SENIOR SOFTWARE ENGINEER",
+        "description": [
+            "Played a pivotal role in developing market dashboards featuring multiple tiles, rendering comprehensive security data for Morningstar Research products. Developed dynamic charts, tables, and list views for quotes, indexes, watchlists, commodities, currencies, and articles, presented in a user-friendly format using Vue.js and VueX store for state management.",
+            "Engineered a highly interactive and performative screener tool APIs and UI components empowering users to select investments to conduct in-depth research.",
+            "Incorporated over 200 data points for detailed analysis, enabling instant data rendering through AWS Elasticsearch query.",
+            "Created independent UI components and webpages in Vue.js, adhering to Morningstar design standards, enhancing the user experience, and ensuring consistency across Morningstar Research, Morningstar Direct, and Morningstar.com platforms.",
+            "Spearheaded cross-team collaboration initiatives, leveraging mentorship roles to foster cohesive integration among diverse departments, ensuring alignment in project goals and delivering unified solutions.",
+            "Leveraging expertise as a Senior Software Engineer to facilitate their onboarding process and expedite their integration into the team. Ensured a smooth transition, fostering a collaborative environment while imparting valuable knowledge and skills.",
+            "Organized and led educational virtual reality(Unity) and cloud development workshops, and finance talks, and conducted and organized Conferences for further industry exposure."
+        ],
+        "logo": "morningstar-logo.jpeg",
+        "companySite": "https://www.morningstar.com/company"
+    },
+    {
+        "startYear": "JUNE 2021",
+        "endYear": "OCT 2021",
+        "companyName": "XRTerra",
+        "jobTitle": "XR DEVELOPER PROGRAM",
+        "description": [
+            "Created extended reality applications.",
+            "VR Development - Developed multiple applications in a virtual stimulations for individuals using Oculus Quest 2",
+            "AR Development - Developed multiple applications to create digital experiences"
+        ],
+        "logo": "xrterra-blue-logo.png",
+        "companySite": "https://www.xrterra.com/"
+    },
+    {
+        "startYear": "OCT 2017",
+        "endYear": "AUG 2018",
+        "companyName": "CHICAGO TRANSIT AUTHORITY",
+        "jobTitle": "ANDROID DEVELOPER",
+        "description": [
+            "Developed a background service for Android devices which notifies the continual connectivity to the CTA network as means of laying the groundwork for future deployment of tablets to CTA Bus Service Management.",
+            "Developed CTA’s Santa Printer Application by integrating critical permissions, Camera2 API, and customized special event bitmaps, allowing CTA riders traveling on special event trains to capture, customize, and print images.",
+            "Assisted Planning and Operations Department to develop a web framework to create and update reroute changes for CTA buses.",
+            "Developed and implemented algorithms to generate PDF based on multiple reroutes.",
+            "Managed the Oracle database to load previous bulletin data for reuse.",
+            "Wrote test cases for different segments of bulletins to detect errors."
+        ],
+        "logo": "cta-logo.png",
+        "companySite": "https://www.transitchicago.com/"
+    },
+    {
+        "startYear": "JAN 2017",
+        "endYear": "AUG 2017",
+        "companyName": "UNIVERSITY OF ILLINIS AT CHICAGO",
+        "jobTitle": "WEB DEVELOPER",
+        "description": [
+            "Provided maintenance, development and written well designed, testable, efficient code by using best software development practices.",
+            "Created website layout/user interfaces by using standard HTML5/CSS3 practices.",
+            "Integrated data from various back-end services and databases."
+        ],
+        "logo": "uic-logo.png",
+        "companySite": "https://www.uic.edu/"
+    }
+]

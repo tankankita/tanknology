@@ -1,0 +1,27 @@
+[
+        {
+                "id": 1,
+                "text": "AUGMENTED REALITY",
+                "projectType": "AR"
+        },
+        {
+                "id": 2,
+                "text": "VIRTUAL REALITY",
+                "projectType": "VR"
+        },
+        {
+                "id": 3,
+                "text": "WEB DEVELOPMENT",
+                "projectType": "W"
+        },
+        {
+                "id": 4,
+                "text": "MOBILE DEVELOPMENT",
+                "projectType": "M"
+        },
+        {
+                "id": 5,
+                "text": "ALGORITHMS",
+                "projectType": "P"
+        }
+]

@@ -1,0 +1,123 @@
+[
+    {
+        "percentage": "70",
+        "sections": [
+            {
+                "value": 70,
+                "color": "black"
+            }
+        ],
+        "background": "#7ac3d1",
+        "label": "AR"
+    },
+    {
+        "percentage": "70",
+        "sections": [
+            {
+                "value": 70,
+                "color": "black"
+            }
+        ],
+        "background": "#7ac3d1",
+        "label": "VR"
+    },
+    {
+        "percentage": "80",
+        "sections": [
+            {
+                "value": 70,
+                "color": "black"
+            }
+        ],
+        "background": "#7ac3d1",
+        "label": "Unity"
+    },
+    {
+        "percentage": "95",
+        "sections": [
+            {
+                "value": 95,
+                "color": "black"
+            }
+        ],
+        "background": "#7ac3d1",
+        "label": "Web"
+    },
+    {
+        "percentage": "90",
+        "sections": [
+            {
+                "value": 90,
+                "color": "black"
+            }
+        ],
+        "background": "#7ac3d1",
+        "label": "Vue/VueX"
+    },
+    {
+        "percentage": "90",
+        "sections": [
+            {
+                "value": 90,
+                "color": "black"
+            }
+        ],
+        "background": "#7ac3d1",
+        "label": "JavaScript"
+    },
+    {
+        "percentage": "90",
+        "sections": [
+            {
+                "value": 90,
+                "color": "black"
+            }
+        ],
+        "background": "#7ac3d1",
+        "label": "Java"
+    },
+    {
+        "percentage": "85",
+        "sections": [
+            {
+                "value": 85,
+                "color": "black"
+            }
+        ],
+        "label": "Android",
+        "background": "#7ac3d1"
+    },
+    {
+        "percentage": "85",
+        "sections": [
+            {
+                "value": 85,
+                "color": "black"
+            }
+        ],
+        "label": "Databases",
+        "background": "#7ac3d1"
+    },
+    {
+        "percentage": "85",
+        "sections": [
+            {
+                "value": 85,
+                "color": "black"
+            }
+        ],
+        "label": "C#",
+        "background": "#7ac3d1"
+    },
+    {
+        "percentage": "75",
+        "sections": [
+            {
+                "value": 65,
+                "color": "black"
+            }
+        ],
+        "label": "iOS ",
+        "background": "#7ac3d1"
+    }
+]
