@@ -3,7 +3,7 @@
   <div id="portfolio">
     <div>
     <nav>
-      <router-link to="/tanknology/for-sid">For Sid</router-link>
+      <!-- <router-link to="/tanknology/for-sid">For Sid</router-link> -->
     </nav>
     <router-view />
   </div>
