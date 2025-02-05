@@ -6,8 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "add-to-repo": "npm run build && git add dist && git commit -m 'Initial dist subtree commit' && git subtree push --prefix dist origin gh-pages",
-    "start": "vue-cli-service serve --open"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -15,6 +14,7 @@
     "timeline-vuejs": "1.1.1",
     "vue": "^2.6.11",
     "vue-css-donut-chart": "^1.3.0",
+    "vue-router": "^3.6.5",
     "vue-typed-js": "^0.1.2",
     "vuetify": "^2.2.27"
   },
@@ -25,6 +25,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
