@@ -7,7 +7,7 @@
         <img :src="getImageUrl('1.JPG')" alt="Image 1" />
         <img :src="getImageUrl('2.JPG')" alt="Image 2" />
         <img :src="getImageUrl('3.png')" alt="Image 3" />
-
+        <img :src="getImageUrl('4.png')" alt="Image 3" />
       </div>
     </div>
 
