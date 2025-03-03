@@ -1,36 +1,36 @@
 <template>
     <div class="navigation-panel-mobile" v-if="!isWeb">
-      <div class="full-width-name">Ankita Tank</div>
-      <div class="full-width-navbar">
-        <nav class="scene_nav-mobile">
-          <ol class="scene_nav_list">
-            <li
-              class="scene_nav_item"
-              v-for="(params, index) in maxScene"
-              :key="index"
-            >
-              <button
-                class="scene_nav_button"
-                @click="selectedView(index)"
-                :class="{ 'o-active': isActiveScene(index) }"
-              >
-                <div v-if="isActiveScene(index)" class="active-button-text">
-                  {{ navButtonsText[index] }}
-                </div>
+        <div class="full-width-name">ANKITA TANK</div>
+          <div class="full-width-navbar">
+            <nav class="scene_nav-mobile">
+              <ol class="scene_nav_list">
+                <li
+                  class="scene_nav_item"
+                  v-for="(params, index) in maxScene"
+                  :key="index"
+                >
+                  <button
+                    class="scene_nav_button"
+                    @click="selectedView(index)"
+                    :class="{ 'o-active': isActiveScene(index) }"
+                  >
+                    <div v-if="isActiveScene(index)" class="active-button-text">
+                     <p> {{ navButtonsText[index] }} </p> 
+                    </div>
 
-                <div v-else class="inactive-button-icon">
-                  <i class="fa icon inactive-icon" :class="getIcon(index)"></i>
-                </div>
-              </button>
-            </li>
-          </ol>
-        </nav>
+                    <div v-else class="inactive-button-icon">
+                      <i class="fa icon inactive-icon" :class="getIcon(index)"></i>
+                    </div>
+                  </button>
+                </li>
+              </ol>
+            </nav>
+          </div>
       </div>
-    </div>
     
     <div class="navigation-panel" v-else>
       <div style="width: 100%; overflow: hidden">
-        <div class="web-name">Ankita Tank</div>
+        <div class="web-name">ANKITA TANK</div>
         <div class="web-navbar">
           <nav class="scene_nav-web">
             <ol class="scene_nav_list">
@@ -48,14 +48,15 @@
                      <i
                       class="fa icon nav-active-icon"
                       :class="getIcon(index)"
-                    > </i> {{ navButtonsText[index] }}
+                    > </i> 
+                    {{ navButtonsText[index] }}
+        
                   </div>
 
                   <div v-else class="inactive-button-icon">
                     <i
                       class="fa icon inactive-icon"
-                      :class="getIcon(index)"
-                    ></i>
+                      :class="getIcon(index)"></i>
                   </div>
                 </button>
               </li>
@@ -66,7 +67,6 @@
     </div>
 </template>
 
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 <script>
@@ -111,6 +111,7 @@ export default {
 </script>
 
 <style scoped>
+
 .web-name {
   color: black;
   font-size: 30px;
@@ -130,13 +131,6 @@ export default {
   height: 70px;
 }
 
-.navigation-panel-mobile {
-  width: 100%;
-  z-index: 1;
-  background: white;
-  background: radial-gradient(ellipse at bottom, #244974 0%, #090a0f 100%);
-  height: 120px;
-}
 .scene_nav-web {
   display: inline-block;
   margin: 0 auto;
@@ -159,25 +153,25 @@ export default {
   display: block;
   margin-left: 10px;
 }
+
 .scene_nav_button {
   width: 50px;
   height: 50px;
-  border-width: 0px;
-  background: #0a789645;
+  background: gray;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 15PX;
 }
 
 .scene_nav_button.o-active {
-  width: 150px;
-  background: #0000007d;  
+  width: 200px;
+  background: #1d1d1de6;  
 }
 .scene_nav_button:hover {
-  background: #1b656d7d;
+  background: black;
 }
 
 .active-button-text {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   color: white;
   font-family: "Courier New" !important;
@@ -204,7 +198,8 @@ export default {
 }
 
 .nav-active-icon {
-  margin-right: 10px;
+  font-size: 25px;
+  margin-top: 3px;
 }
 
 </style>
