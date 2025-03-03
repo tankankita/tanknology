@@ -84,7 +84,7 @@ export default {
   text-align: center;
   margin-top: -73px;
   margin-left: -33px;
-  font-family: "Ubuntu Condensed" !important;
+  font-family: "Courier New" !important;
 }
 
 .line {

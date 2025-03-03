@@ -117,7 +117,7 @@ export default {
 }
 
 .job-title {
-  font-family: "Ubuntu Condensed";
+  font-family: "Courier New";
   color: black;
   font-size: 20px;
 }
@@ -129,7 +129,7 @@ export default {
 }
 
 .bulletin-text {
-  font-family: "Ubuntu Condensed";
+  font-family: "Courier New";
   color: #272727;
   line-height: 17px;
   margin-bottom: 15px;
@@ -148,12 +148,12 @@ export default {
   color: red;
 }
 .company-name {
-  font-family: "Ubuntu Condensed";
+  font-family: "Courier New";
   color: #1a4665;
   font-size: 17px;
 }
 .duration {
-  font-family: "Ubuntu Condensed";
+  font-family: "Courier New";
   color: #1a4665;
   font-size: 14px;
 }

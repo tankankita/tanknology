@@ -112,7 +112,7 @@ export default {
 
 <style scoped>
 .web-name {
-  color: white;
+  color: black;
   font-size: 30px;
   width: 50%;
   float: left;
@@ -122,20 +122,18 @@ export default {
 .web-navbar {
   margin-left: 50%;
   height: 80px;
-  border-bottom: solid 10px white;
 }
 .navigation-panel {
   width: 100%;
   z-index: 1;
-  background: #000000a3;
-  background: radial-gradient(ellipse at bottom, #244974 0%, #090a0f 100%);
+  background: white;
   height: 70px;
 }
 
 .navigation-panel-mobile {
   width: 100%;
   z-index: 1;
-  background: #000000a3;
+  background: white;
   background: radial-gradient(ellipse at bottom, #244974 0%, #090a0f 100%);
   height: 120px;
 }
@@ -182,7 +180,7 @@ export default {
   font-size: 20px;
   font-weight: 500;
   color: white;
-  font-family: "Ubuntu Condensed" !important;
+  font-family: "Courier New" !important;
 }
 
 .inactive-icon {

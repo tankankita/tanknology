@@ -41,7 +41,8 @@ export default {
 
 body {
   margin: 0px !important;
-  font-family: "Ubuntu Condensed" !important;
+  font-family: "Courier New" !important;
+  background: #302C2C;
 }
 
 .portfolio {
