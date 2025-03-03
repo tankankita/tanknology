@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import NavigationPanel from "./components/NavigationPanel";
+import NavigationPanel from "./components/common/NavigationPanel";
 import Introduction from "./components/page/Introduction";
 import Resume from "./components/page/Resume";
 import Projects from "./components/page/Projects";
