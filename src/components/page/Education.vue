@@ -2,46 +2,37 @@
   <v-app id="inspire">
     <v-timeline
       class="timeline-wrapper"
-      :class="{ 'extra-passing': isWeb }"
-    >
+      :dense="true"
+      :theme="$vuetify.theme.dark ? 'dark' : 'light'"
+      >
       <v-timeline-item
-        v-for="(experience, index) in experiences"
+        v-for="(education, index) in educations"
         :key="index"
         
         small
       >
         <template v-slot:icon>
           <v-avatar size="60">
-            <a class="company-icon" :href="experience.companySite" target="_blank">
+            <a class="company-icon" :href="education.site" target="_blank">
               <img
-                v-if="experience.logo.length"
-                :src="require(`../../assets/${experience.logo}`)"
+                v-if="education.logo.length"
+                :src="require(`../../assets/${education.logo}`)"
               />
             </a>
           </v-avatar>
         </template>
 
-        <v-card shaped elevation="11" class="elevation-11">
-          <v-card-title class="job-title" :style="{'background': experience.backdrop}">
+        <v-card shaped elevation="20" class="elevation-10" max-width="450px" >
+          <v-card-title class="job-title" :style="{'background': education.backdrop}">
             <div>
-              {{ experience.jobTitle }}
+              {{ education.major }}
             </div>
           </v-card-title >
           
-          <v-card-subtitle :style="{'background': experience.backdrop, 'margin-top': '0px'}">
-            <a class="company-name" :href="experience.companySite" target="_blank">{{ experience.companyName }}</a>
-            <p class="duration">{{ experience.startYear }} - {{ experience.endYear }}</p>
+          <v-card-subtitle :style="{'background': education.backdrop, 'margin-top': '0px'}">
+            <a class="company-name" :href="education.site" target="_blank">{{ education.university }}</a>
+            <p class="duration">{{ education.startYear }} - {{ education.endYear }}</p>
           </v-card-subtitle>
-
-          <v-card-text>
-            <div
-              class="description"
-              v-for="(bulletin, bIndex) in experience.description"
-              :key="bIndex"
-            >
-              <div class="bulletin-text">{{ bulletin }}</div>
-            </div>          
-          </v-card-text>
         </v-card>
       </v-timeline-item>
     </v-timeline>
@@ -52,20 +43,20 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
-import Experience from "../../data/experience.json";
+import Education from "../../data/education.json";
 
 Vue.use(Vuetify);
 
 export default {
-  name: "Resume",
+  name: "Education",
   vuetify: new Vuetify(),
   props: {
     msg: String,
   },
   data() {
     return {
-      reverse: false,
-      experiences: Experience,
+      reverse: true,
+      educations: Education,
     };
   },
   computed: {
@@ -149,13 +140,12 @@ export default {
 
 .company-name {
   font-family: "Courier New";
-  color: #1a4665;
+  color: black;
   font-size: 17px;
   font-weight: 600;
 }
 .duration {
   font-family: "Courier New";
-  color: #1a4665;
   font-size: 14px;
   font-weight: 600;
 }
@@ -180,4 +170,11 @@ export default {
   transform: scale(1.05); /* Slight zoom-in effect */
 }
 
+::v-deep(.v-application--wrap) {
+    min-height: 0vh !important;
+}
+
+#inspire > div {
+  background: green;
+}
 </style>

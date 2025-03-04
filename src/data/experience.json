@@ -14,7 +14,8 @@
             "Performed code reviews to offer constructive feedback and ensure best practices fostering a collaborative environment."
         ],
         "logo": "snapsheet-logo.png",
-        "companySite":"https://www.snapsheetclaims.com/"
+        "companySite":"https://www.snapsheetclaims.com/",
+        "backdrop": "#2ca1c5db"
     },
     {
         "startYear": "SEPT 2018",
@@ -31,7 +32,8 @@
             "Organized and led educational virtual reality(Unity) and cloud development workshops, and finance talks, and conducted and organized Conferences for further industry exposure."
         ],
         "logo": "morningstar-logo.jpeg",
-        "companySite": "https://www.morningstar.com/company"
+        "companySite": "https://www.morningstar.com/company",
+        "backdrop": "#fe000085"
     },
     {
         "startYear": "JUNE 2021",
@@ -44,7 +46,8 @@
             "AR Development - Developed multiple applications to create digital experiences"
         ],
         "logo": "xrterra-blue-logo.png",
-        "companySite": "https://www.xrterra.com/"
+        "companySite": "https://www.xrterra.com/",
+        "backdrop": "#2ca1c5db"
     },
     {
         "startYear": "OCT 2017",
@@ -60,12 +63,13 @@
             "Wrote test cases for different segments of bulletins to detect errors."
         ],
         "logo": "cta-logo.png",
-        "companySite": "https://www.transitchicago.com/"
+        "companySite": "https://www.transitchicago.com/",
+        "backdrop": "#2ca1c5db"
     },
     {
         "startYear": "JAN 2017",
         "endYear": "AUG 2017",
-        "companyName": "UNIVERSITY OF ILLINIS AT CHICAGO",
+        "companyName": "UNIVERSITY OF ILLIONIS AT CHICAGO",
         "jobTitle": "WEB DEVELOPER",
         "description": [
             "Provided maintenance, development and written well designed, testable, efficient code by using best software development practices.",
@@ -73,6 +77,7 @@
             "Integrated data from various back-end services and databases."
         ],
         "logo": "uic-logo.png",
-        "companySite": "https://www.uic.edu/"
+        "companySite": "https://www.uic.edu/",
+        "backdrop": "#fe000085"
     }
 ]

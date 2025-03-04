@@ -1,0 +1,20 @@
+[
+    {
+        "startYear": "AUG 2024",
+        "endYear": "MAY 2026",
+        "university": "DePaul University Chicago",
+        "major": "Masters, Artificial Intelligence",
+        "logo": "depaul.jpeg",
+        "backdrop": "#2ca1c5db",
+        "site": "https://www.depaul.edu/"
+    },
+    {
+        "startYear": "AUG 2014",
+        "endYear": "MAY 2018",
+        "university": "University of Illinois at Chicago",
+        "major": "Bachelors, Computer Science",
+        "logo": "uic-logo.png",
+        "backdrop": "#fe000085",
+        "site": "https://www.uic.edu/"
+    }
+]

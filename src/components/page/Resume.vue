@@ -1,10 +1,23 @@
 <template>
   <div class="resume-wrapper">
     <div class="resume-header">
-      EXPERIENCE
+      EDUCATION
       <hr class="line" />
     </div>
-    <WorkExperience> </WorkExperience>
+
+    
+    <div> 
+       <Education> </Education>
+     </div>
+
+     <div class="resume-header">
+      WORK EXPERIENCE
+      <hr class="line" />
+    </div>
+
+     <div> 
+       <WorkExperience> </WorkExperience>
+     </div>
   </div>
 </template>
 
@@ -12,8 +25,9 @@
 import Vue from "vue";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
-import Experience from "../../data/experience.json";
 import WorkExperience from "./WorkExperience.vue";
+import Education from "./Education.vue";
+
 
 Vue.use(Vuetify);
 
@@ -22,6 +36,7 @@ export default {
   vuetify: new Vuetify(),
   components: {
     WorkExperience,
+    Education
   },
   props: {
     msg: String,
@@ -29,7 +44,6 @@ export default {
   data() {
     return {
       reverse: true,
-      experiences: Experience,
     };
   },
   computed: {
@@ -45,7 +59,7 @@ export default {
   width: 100%;
   height: 100px;
   font-size: 34px;
-  color: black;
+  color: white;
   margin: 0 auto;
   text-align: center;
   padding-top: 50px;
@@ -58,7 +72,7 @@ export default {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  background: #1e3c5f;
+  background: white;
   border: 0;
   margin-top: 8px;
 }
