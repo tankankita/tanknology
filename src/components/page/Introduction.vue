@@ -4,14 +4,7 @@
       <div class="welcome">
         <div class="greeting">
           <vue-typed-js
-            :strings="[
-              'Hello,',
-              'Bonjour,',
-              'Hola,',
-              'Olá,',
-              'Namaste',
-              'Здравейте',
-            ]"
+            :strings="['Hello,', 'Bonjour,', 'Hola,', 'Olá,', 'Namaste', 'Здравейте']"
             :loop="true"
             :typeSpeed="100"
             :showCursor="false"
@@ -19,10 +12,11 @@
             <h1 class="typing"></h1>
           </vue-typed-js>
         </div>
-        <div class="bubble-animation-web">
-          <div v-if="isWeb" class="blueLeaf" />
-          <div v-if="isWeb" class="greenLeaf" />
-          <div v-if="isWeb" class="pinkLeaf" />
+
+        <div class="bubble-animation" v-if="isWeb">
+          <div class="blueLeaf" />
+          <div class="greenLeaf" />
+          <div class="pinkLeaf" />
         </div>
       </div>
 
@@ -34,24 +28,17 @@
         {{ introParagraph2 }}
         
       </div>
+
       <div class="reachables">
-        <div>
-          <i class="fa fa-linkedin-square reachable-icon" @click="openLinkedin" />
-        </div>
+        <i class="fa fa-linkedin-square reachable-icon" @click="openLinkedin" />
+        <i class="fa fa-github reachable-icon" @click="openGithub" />
 
-        <div>
-          <i class="fa fa-github reachable-icon" @click="openGithub" />
-        </div>
-
-        <button class="download-button" style="vertical-align: middle">
-          <a
-            class="resume-link"
-            :href="pdfDownloadLink"
-            download="Ankita-Tank-Resume.pdf">
+        <button class="download-button">
+          <a class="resume-link" :href="pdfDownloadLink" download="Ankita-Tank-Resume.pdf">
             <span>Download Resume</span>
           </a>
         </button>
-       </div>
+      </div>
     </div>
   </div>
 </template>
@@ -59,27 +46,25 @@
 <script>
 import Vue from "vue";
 import { VueTypedJs } from "vue-typed-js";
+
 Vue.use(VueTypedJs);
 
 export default {
   name: "Introduction",
-  components: {
-    VueTypedJs,
-  },
+  components: { VueTypedJs },
   data() {
     return {
       linkedInLink: "https://www.linkedin.com/in/ankitatank/",
       githubLink: "https://github.com/tankankita/",
-      instagramLink: "https://instagram.com/_tanknology?igshid=YmMyMTA2M2Y=",
-      introParagraph1: "I am a Software Engineer with 8+ years of experience in full-stack development, specializing in Node.js, Vue.js, and React.js, alongside API development using Java, Python, and Ruby on Rails. Currently, I’m pursuing a Master’s in Artificial Intelligence at DePaul University, where I’m integrating AI and software engineering to build intelligent, scalable solutions.",
-      introParagraph2:"My expertise extends to cloud computing (AWS, CI/CD, Docker, Kubernetes) and performance optimization, ensuring efficient and maintainable applications. Passionate about AI-driven development, I explore machine learning, NLP, and automation to enhance user experiences and streamline business workflows. I thrive on solving complex problems, mentoring developers, and building impactful products. 🚀"
+      introParagraph1:
+        "I am a Software Engineer with 8+ years of experience in full-stack development, specializing in Node.js, Vue.js, and React.js, alongside API development using Java, Python, and Ruby on Rails. Currently, I’m pursuing a Master’s in Artificial Intelligence at DePaul University, where I’m integrating AI and software engineering to build intelligent, scalable solutions.",
+      introParagraph2:
+        "My expertise extends to cloud computing (AWS, CI/CD, Docker, Kubernetes) and performance optimization, ensuring efficient and maintainable applications. Passionate about AI-driven development, I explore machine learning, NLP, and automation to enhance user experiences and streamline business workflows.",
     };
   },
   computed: {
     pdfDownloadLink() {
-      // convert the resume pdf to base64 
-      // return "data:application/pdf;base64," + this.pdfLink;
-      return null;
+      return null; // Placeholder for actual PDF link
     },
     isWeb() {
       return window.innerWidth >= 700;
@@ -92,123 +77,109 @@ export default {
     openGithub() {
       window.open(this.githubLink, "_blank");
     },
-    openInstagram() {
-      window.open(this.instagramLink, "_blank");
-    },
   },
 };
 </script>
 
 <style scoped>
-.blueLeaf {
-  background: #52b6d0a3;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  margin-left: 53%;
-  margin-top: -15%;
-  animation: MoveUpDownLarge 10s linear infinite;
-  position: absolute;
-  z-index: 4;
-}
-
-.greenLeaf {
-  background: #66cdaa96;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  margin-left: 38%;
-  animation: MoveUpDownLarge 6s linear infinite;
-  position: absolute;
-  z-index: 2;
-}
-
-.pinkLeaf {
-  margin-top: -4%;
-  background: #ffc0cb91;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  margin-left: 46%;
-  animation: MoveUpDownlittle 9s linear infinite;
-  position: absolute;
-  z-index: 1;
-}
-
-
-@keyframes MoveUpDownlittle {
-  0%,
-  100% {
-    bottom: 200px;
-  }
-  50% {
-    bottom: 300px;
-  }
-}
-
-@keyframes MoveUpDownLarge {
-  0%,
-  100% {
-    bottom: 400px;
-  }
-  50% {
-    bottom: 550px;
-  }
-}
-
+/* Main Layout */
 .intro-wrapper {
   position: absolute;
   margin-top: 80px;
   width: 100%;
   height: 100%;
   padding: 2%;
-  padding-top: 0;
 }
-.intro-header {
-  width: 100%;
-  height: 100px;
-  font-size: 34px;
-  color: black;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 50px;
-  color: white
-}
+
+/* Welcome Section */
 .welcome {
   height: 140px;
   margin-top: 100px;
-  color: white
+  color: white;
 }
-.line {
-  height: 4px;
-  width: 111px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  background: #1e3c5f;
-  border: 0;
-  margin-top: 8px;
-}
+
 .greeting {
   display: flex;
   height: 140px;
   color: white;
 }
+
 .typing {
   font-size: 130px;
   font-family: "Courier New" !important;
 }
 
-.about-me {
-  margin: 0% 30% 0% 10%;;
-}
-.introduction {
-  display: block;
-  font-size: 17px;
-  color: white;
-  height: fit-content;
+/* Animated Bubbles */
+.bubble-animation {
+  margin-left: 200px;
 }
 
+.blueLeaf,
+.greenLeaf,
+.pinkLeaf {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+}
+
+.blueLeaf {
+  background: #52b6d0a3;
+  margin-left: 53%;
+  margin-top: -15%;
+  animation: MoveUpDownLarge 10s linear infinite;
+}
+
+.greenLeaf {
+  background: #66cdaa96;
+  margin-left: 38%;
+  animation: MoveUpDownLarge 6s linear infinite;
+}
+
+.pinkLeaf {
+  background: #ffc0cb91;
+  margin-left: 46%;
+  margin-top: -4%;
+  animation: MoveUpDownlittle 9s linear infinite;
+}
+
+/* Animations */
+@keyframes MoveUpDownlittle {
+  0%, 100% { bottom: 200px; }
+  50% { bottom: 300px; }
+}
+
+@keyframes MoveUpDownLarge {
+  0%, 100% { bottom: 400px; }
+  50% { bottom: 550px; }
+}
+
+/* Introduction */
+.about-me {
+  margin: 0% 30% 0% 10%;
+}
+
+.introduction {
+  font-size: 17px;
+  color: white;
+}
+
+/* Social Icons & Resume Download */
+.reachables {
+  font-size: 40px;
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.reachable-icon {
+  font-size: 50px;
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+}
+
+/* Download Resume Button */
 .download-button {
   font-family: "Courier New";
   border-radius: 15px;
@@ -218,15 +189,14 @@ export default {
   width: 65%;
   cursor: pointer;
   margin-left: 10px;
-    height: 40px;
-    position: relative;
-    margin-top: 14px;
+  height: 40px;
+  position: relative;
+  margin-top: 14px;
+  transition: 0.5s;
 }
 
 .download-button span {
-  cursor: pointer;
   display: inline-block;
-  position: relative;
   transition: 0.5s;
 }
 
@@ -244,7 +214,6 @@ export default {
 
 .download-button:hover span:after {
   opacity: 1;
-  right: 0;
 }
 
 .resume-link {
@@ -252,34 +221,13 @@ export default {
   color: #000;
 }
 
-
-.reachables {
-  font-size: 40px;
-  display: flex;
-  margin-top: 50px;
-}
-
-.reachable-icon {
-  font-size: 50px;
-  cursor: pointer;
-  padding: 10px;
-  color:white;
-}
-
+/* Slide-in Animation */
 .intro-wrapper {
   animation: 0.3s ease-out 0s 1 slideInFromLeft;
 }
 
-.bubble-animation-web{
-  margin-left: 200px;
-
-}
 @keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
 }
 </style>
