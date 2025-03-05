@@ -1,5 +1,14 @@
 [
     {
+        "type": "AI",
+        "projectName": "License Plate Detection",
+        "githubLink": "https://github.com/tankankita/license-plate-detection",
+        "hasVideo": false,
+        "videoLink": "",
+        "imageName": "license.jpg",
+        "infoLine1": "License plate recognition system using Python and OpenCV"
+    },
+    {
         "type": "XR",
         "projectName": "AR Bean bag Toss",
         "githubLink": "https://github.com/tankankita/AR-Bean-Bag-Toss",
