@@ -71,10 +71,8 @@ export default {
       linkedInLink: "https://www.linkedin.com/in/ankitatank/",
       githubLink: "https://github.com/tankankita/",
       instagramLink: "https://instagram.com/_tanknology?igshid=YmMyMTA2M2Y=",
-      introParagraph2:
-        "I love structure, order, stand for quality and spend time on fixing minor details and optimizing complexity. My passion is to learn new arena of development and expand my knowledge/experience.",
-      introParagraph1:
-        "An experienced Senior Software Engineer working with Morningstar, Creative and highly organized professional with adequate knowledge about Object-Oriented Programming, Design Patterns. I have successfully demonstrated problem-solving skills and a proven track record with strong attention to detail.",
+      introParagraph1: "I am a Software Engineer with 8+ years of experience in full-stack development, specializing in Node.js, Vue.js, and React.js, alongside API development using Java, Python, and Ruby on Rails. Currently, I’m pursuing a Master’s in Artificial Intelligence at DePaul University, where I’m integrating AI and software engineering to build intelligent, scalable solutions.",
+      introParagraph2:"My expertise extends to cloud computing (AWS, CI/CD, Docker, Kubernetes) and performance optimization, ensuring efficient and maintainable applications. Passionate about AI-driven development, I explore machine learning, NLP, and automation to enhance user experiences and streamline business workflows. I thrive on solving complex problems, mentoring developers, and building impactful products. 🚀"
     };
   },
   computed: {
