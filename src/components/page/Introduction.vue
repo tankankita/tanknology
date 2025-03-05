@@ -34,7 +34,7 @@
         <i class="fa fa-github reachable-icon" @click="openGithub" />
 
         <button class="download-button">
-          <a class="resume-link" :href="pdfDownloadLink" download="Ankita-Tank-Resume.pdf">
+          <a class="resume-link" :href="pdfDownloadLink" download="Resume.pdf">
             <span>Download Resume</span>
           </a>
         </button>
@@ -46,7 +46,6 @@
 <script>
 import Vue from "vue";
 import { VueTypedJs } from "vue-typed-js";
-
 Vue.use(VueTypedJs);
 
 export default {
@@ -57,14 +56,14 @@ export default {
       linkedInLink: "https://www.linkedin.com/in/ankitatank/",
       githubLink: "https://github.com/tankankita/",
       introParagraph1:
-        "I am a Software Engineer with 8+ years of experience in full-stack development, specializing in Node.js, Vue.js, and React.js, alongside API development using Java, Python, and Ruby on Rails. Currently, I’m pursuing a Master’s in Artificial Intelligence at DePaul University, where I’m integrating AI and software engineering to build intelligent, scalable solutions.",
+        `I am a Software Engineer with 8+ years of experience in full-stack development, specializing in Node.js, Vue.js, and React.js, alongside API development using Java, Python, and Ruby on Rails. Currently, pursuing a Master’s in Artificial Intelligence at DePaul University, where I’m integrating AI and software engineering to build intelligent, scalable solutions.`,
       introParagraph2:
-        "My expertise extends to cloud computing (AWS, CI/CD, Docker, Kubernetes) and performance optimization, ensuring efficient and maintainable applications. Passionate about AI-driven development, I explore machine learning, NLP, and automation to enhance user experiences and streamline business workflows.",
+        "My expertise extends to cloud computing and performance optimization, ensuring efficient and maintainable applications. Passionate about AI-driven development, I explore machine learning, NLP, and automation to enhance user experiences and streamline business workflows.",
     };
   },
   computed: {
     pdfDownloadLink() {
-      return null; // Placeholder for actual PDF link
+      return  "/Resume.pdf";
     },
     isWeb() {
       return window.innerWidth >= 700;

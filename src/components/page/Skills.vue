@@ -92,7 +92,7 @@ export default {
 .skills-grid {
   font-family: "Courier New";
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
 }
 
 .skill-label {
@@ -111,8 +111,7 @@ export default {
 .skill-object {
   width: auto;
   height: auto;
-  margin-left: 13%;
-  margin-top: 6%;
+  padding: 20px;
 }
 
 .skills-wrapper {
@@ -129,6 +128,10 @@ export default {
 
 ::v-deep .v-timeline-item__body {
   font-weight: 800 !important;
+}
+
+::v-deep .v-application .mb-5 {
+  font-size: 20px;
 }
 
 
