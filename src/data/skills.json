@@ -1,123 +1,74 @@
-[
+{
+  "skills": [
     {
-        "percentage": "70",
-        "sections": [
-            {
-                "value": 70,
-                "color": "black"
-            }
-        ],
-        "background": "#7ac3d1",
-        "label": "AR"
+      "category": "AI | ML",
+      "skills": [
+        { "name": "Python" },  
+        { "name": "TensorFlow" },  
+        { "name": "PyTorch" },  
+        { "name": "Scikit-learn" },  
+        { "name": "XGBoost" },  
+        { "name": "OpenAI API" },  
+        { "name": "NLP" },  
+        { "name": "Computer Vision" },  
+        { "name": "Generative AI" },  
+        { "name": "YOLO" },  
+        { "name": "Jupyter Notebook" },  
+        { "name": "AWS Sagemaker" },  
+        { "name": "MLOps" }  
+      ]
     },
     {
-        "percentage": "70",
-        "sections": [
-            {
-                "value": 70,
-                "color": "black"
-            }
-        ],
-        "background": "#7ac3d1",
-        "label": "VR"
+      "category": "Cloud Engineering",
+      "skills": [
+        { "name": "AWS" },  
+        { "name": "Docker" },  
+        { "name": "Terraform" },  
+        { "name": "Jenkins" },  
+        { "name": "GitHub Actions" },  
+        { "name": "CloudFormation" },  
+        { "name": "S3" },  
+        { "name": "CloudFront" },  
+        { "name": "EC2" },  
+        { "name": "IAM" },  
+        { "name": "CloudWatch" },  
+        { "name": "CI/CD Pipelines" }  
+      ]
     },
     {
-        "percentage": "80",
-        "sections": [
-            {
-                "value": 70,
-                "color": "black"
-            }
-        ],
-        "background": "#7ac3d1",
-        "label": "Unity"
+      "category": "Frontend Engineering",
+      "skills": [
+        { "name": "React" },  
+        { "name": "CSS" },  
+        { "name": "HTML" },  
+        { "name": "Vue" },  
+        { "name": "JavaScript" },  
+        { "name": "TypeScript" },  
+        { "name": "Next.js" },  
+        { "name": "Nuxt.js" },  
+        { "name": "Tailwind CSS" },  
+        { "name": "SASS" },  
+        { "name": "Bootstrap" }  
+      ]
     },
     {
-        "percentage": "95",
-        "sections": [
-            {
-                "value": 95,
-                "color": "black"
-            }
-        ],
-        "background": "#7ac3d1",
-        "label": "Web"
-    },
-    {
-        "percentage": "90",
-        "sections": [
-            {
-                "value": 90,
-                "color": "black"
-            }
-        ],
-        "background": "#7ac3d1",
-        "label": "Vue/VueX"
-    },
-    {
-        "percentage": "90",
-        "sections": [
-            {
-                "value": 90,
-                "color": "black"
-            }
-        ],
-        "background": "#7ac3d1",
-        "label": "JavaScript"
-    },
-    {
-        "percentage": "90",
-        "sections": [
-            {
-                "value": 90,
-                "color": "black"
-            }
-        ],
-        "background": "#7ac3d1",
-        "label": "Java"
-    },
-    {
-        "percentage": "85",
-        "sections": [
-            {
-                "value": 85,
-                "color": "black"
-            }
-        ],
-        "label": "Android",
-        "background": "#7ac3d1"
-    },
-    {
-        "percentage": "85",
-        "sections": [
-            {
-                "value": 85,
-                "color": "black"
-            }
-        ],
-        "label": "Databases",
-        "background": "#7ac3d1"
-    },
-    {
-        "percentage": "85",
-        "sections": [
-            {
-                "value": 85,
-                "color": "black"
-            }
-        ],
-        "label": "C#",
-        "background": "#7ac3d1"
-    },
-    {
-        "percentage": "75",
-        "sections": [
-            {
-                "value": 65,
-                "color": "black"
-            }
-        ],
-        "label": "iOS ",
-        "background": "#7ac3d1"
+      "category": "Backend Engineering",
+      "skills": [
+        { "name": "Node.js" },  
+        { "name": "Java" },  
+        { "name": "Spring Boot" },  
+        { "name": "Python" },  
+        { "name": "Django" },  
+        { "name": "Flask" },  
+        { "name": "C#" },  
+        { "name": ".NET Core" },  
+        { "name": "Ruby on Rails" },  
+        { "name": "GraphQL" },  
+        { "name": "PostgreSQL" },  
+        { "name": "MongoDB" },  
+        { "name": "MySQL" },  
+        { "name": "Redis" }  
+      ]
     }
-]
+  ]
+}

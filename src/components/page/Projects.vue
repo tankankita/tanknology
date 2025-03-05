@@ -97,7 +97,7 @@ export default {
   width: 100%;
   height: 100px;
   font-size: 34px;
-  color: black;
+  color: white;
   margin: 0 auto;
   text-align: center;
   padding-top: 50px;

@@ -88,17 +88,6 @@ export default {
   margin-bottom: 50px;
 }
 
-.line {
-  height: 4px;
-  width: 111px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  background: #7ac3d1;
-  border: 0;
-  margin-top: 8px;
-}
-
 .resume-wrapper {
   position: absolute;
   margin-top: 70px;
@@ -141,7 +130,7 @@ export default {
 }
 
 .timeline-wrapper {
-  background: #2525259c;
+  background: #fafafa;
 }
 .extra-passing {
   padding: 40px;
@@ -149,13 +138,13 @@ export default {
 
 .company-name {
   font-family: "Courier New";
-  color: #1a4665;
+  color: #000000;
   font-size: 17px;
   font-weight: 600;
 }
 .duration {
   font-family: "Courier New";
-  color: #1a4665;
+  color: #000000;
   font-size: 14px;
   font-weight: 600;
 }
@@ -172,9 +161,15 @@ export default {
 }
 
 .v-card {
-  background:#e3e3e3d6;
+  background:#fffff;
   transition: transform 0.3s ease-in-out;
 }
+
+
+.v-card__text {
+  margin-top: 10px;
+}
+
 
 .v-card:hover {
   transform: scale(1.05); /* Slight zoom-in effect */

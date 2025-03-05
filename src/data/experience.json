@@ -4,15 +4,14 @@
         "endYear": "DEC 2023",
         "companyName": "SNAPSHEET",
         "jobTitle": "SOFTWARE ENGINEER",
-        "description": [
-            "Extensively implemented PDF parsers and developed multiple estimating tools, tabular web pages, and components for insurance providers, ensuring seamless integration with large datasets while maintaining an intuitive design and response time, leveraging Node.js and React.js best practices.",
-            "Collaborated proactively with designers to ensure timely and continuous coordination, upholding and adapting design standards as necessary for a cohesive and polished visual representation as per user research.",
-            "Developed monitoring dashboards on Periscope and New Relic to track feature usage, efficiency, and error rates. Utilized optimized SQL queries to retrieve data from SQL databases contributing to enhanced data-driven insights.",
-            "Established multiple CI/CD pipelines using AWS Cloudformation, Code Pipeline, Lambda, and API Gateway.",
-            "Mentored interns on the team over one year, providing guidance and support to cultivate their skills and knowledge, resulting in their successful integration into project workflows and achievement of professional milestones.",
-            "Efficiently tracked tasks utilizing JIRA and managed code within GitHub in adherence to Agile methodology during sprints.",
-            "Performed code reviews to offer constructive feedback and ensure best practices fostering a collaborative environment."
-        ],
+        "description": [ 
+            "Developed XGBoost and classification models leveraging NLP methodologies to analyze vehicle damage descriptions, achieving an accuracy of 87% in predicting vehicle’s potential total loss.",  
+            "Developed image classification models to categorize damaged vehicle parts from images, achieving a high accuracy rate of 96%, reducing claim’s processing time by 80%.",  
+            "Refined and analyzed over 600 datasets using Jupyter Notebook, Scikit-learn, and Matplotlib, applying advanced filtering techniques to enhance data quality.",  
+            "Built and optimized AWS cloud CI/CD pipelines, standardizing infrastructure updates and reducing deployment time by 60%, resulting in faster and more reliable feature releases.",  
+            "Implemented New Relic and CloudWatch monitoring dashboards and alerts with optimized SQL queries, enabling real-time tracking of product usage and efficiency, resulting in reducing error rates.",  
+            "Developed claim components for United State’s top Auto insurance providers, ensuring seamless integration with large datasets while maintaining an intuitive design and response time, leveraging React.js best practices."  
+            ],
         "logo": "snapsheet-logo.png",
         "companySite":"https://www.snapsheetclaims.com/",
         "backdrop": "#2ca1c5db"
@@ -64,7 +63,7 @@
         ],
         "logo": "cta-logo.png",
         "companySite": "https://www.transitchicago.com/",
-        "backdrop": "#2ca1c5db"
+        "backdrop": "#0078c2"
     },
     {
         "startYear": "JAN 2017",

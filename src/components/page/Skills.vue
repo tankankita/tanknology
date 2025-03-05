@@ -4,6 +4,8 @@
       <div class="header-text">SKILLS</div>
       <hr class="line" />
     </div>
+    <v-app id="inspire">
+      
     <div class="skills-container">
       <div class="skills-grid">
         <div
@@ -11,39 +13,53 @@
           v-for="(skill, index) in allSkills"
           :key="index"
         >
-          <Progress
-            :transitionDuration="1000"
-            :radius="100"
-            :strokeWidth="8"
-            :value="skill.percentage"
-            strokeColor="#1e3c5f"
-          ></Progress>
-          <h5 class="skill-label">{{ skill.label }}</h5>
+          <v-card class="skill-card" min-height="800px">
+                <v-card-text>
+                  <div class="mb-5">
+                    {{ skill.category }}
+                  </div>
+                  <v-timeline align-top dense>
+                    <v-timeline-item 
+                      v-for="message in skill.skills" 
+                      :key="message.name" 
+                      color="black" 
+                      
+                      small>
+                      <div>
+                        {{ message.name }}
+                      </div>
+                    </v-timeline-item>
+                  </v-timeline>
+                </v-card-text>
+              </v-card>
         </div>
       </div>
     </div>
+      
+    </v-app>
   </div>
 </template>
 
+
 <script>
 import Vue from "vue";
-import Progress from "easy-circular-progress";
 import Donut from "vue-css-donut-chart";
 import "vue-css-donut-chart/dist/vcdonut.css";
 import skills from "../../data/skills.json";
+import Vuetify from "vuetify";
+
+Vue.use(Vuetify);
 
 Vue.use(Donut);
 export default {
   name: "Introduction",
-  components: {
-    Progress,
-  },
+  vuetify: new Vuetify(),
   props: {
     msg: String,
   },
   data() {
     return {
-      allSkills: skills,
+      allSkills: skills.skills,
     };
   },
 };
@@ -51,6 +67,7 @@ export default {
 
 <style  scoped>
 .skills-wrapper {
+  font-family: "Courier New" !important;
   position: absolute;
   margin-top: 80px;
   width: 100%;
@@ -73,13 +90,13 @@ export default {
 }
 
 .skills-grid {
+  font-family: "Courier New";
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: 250px;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
 }
 
 .skill-label {
-  font-weight: 300;
+  font-weight: 600;
   color: black;
   text-align: center;
   margin-top: -73px;
@@ -87,16 +104,6 @@ export default {
   font-family: "Courier New" !important;
 }
 
-.line {
-  height: 4px;
-  text-align: center;
-  position: relative;
-  background: #1e3c5f;
-  border: 0;
-  margin: 0 auto;
-  width: 65px;
-  margin-top: 6px;
-}
 .skills-container {
   padding-top: 5%;
 }
@@ -107,16 +114,23 @@ export default {
   margin-left: 13%;
   margin-top: 6%;
 }
-.skill-object::v-deep .vue-circular-progress .circle .percent .dot {
-  display: none;
-}
 
-.skill-object::v-deep .vue-circular-progress .circle .percent .percent__dec {
-  display: none;
-}
 .skills-wrapper {
   animation: 0.3s ease-out 0s 1 slideInFromRight;
 }
+
+::v-deep .v-card__text {
+  font-weight: 800 !important;
+}
+
+.v-card {
+  background: "#cac8c8"
+}
+
+::v-deep .v-timeline-item__body {
+  font-weight: 800 !important;
+}
+
 
 @keyframes slideInFromRight {
   0% {

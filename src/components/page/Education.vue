@@ -30,7 +30,7 @@
           </v-card-title >
           
           <v-card-subtitle :style="{'background': education.backdrop, 'margin-top': '0px'}">
-            <a class="company-name" :href="education.site" target="_blank">{{ education.university }}</a>
+            <a class="company-name">{{ education.university }}</a>
             <p class="duration">{{ education.startYear }} - {{ education.endYear }}</p>
           </v-card-subtitle>
         </v-card>
@@ -79,17 +79,6 @@ export default {
   margin-bottom: 50px;
 }
 
-.line {
-  height: 4px;
-  width: 111px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  background: #7ac3d1;
-  border: 0;
-  margin-top: 8px;
-}
-
 .resume-wrapper {
   position: absolute;
   margin-top: 70px;
@@ -132,7 +121,7 @@ export default {
 }
 
 .timeline-wrapper {
-  background: #2525259c;
+  background: #fafafa;
 }
 .extra-passing {
   padding: 40px;
