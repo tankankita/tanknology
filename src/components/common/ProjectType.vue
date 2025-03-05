@@ -52,14 +52,20 @@ export default {
 </script>
 <style scoped>
 .buttons-wrapper {
-  margin: auto;
-  width: 58%;
-  margin-top: 40px;
+  margin-top:50px;
+  color: black;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust this if necessary */
   width: 100%;
-  height: 50px;
 }
 
 .navigation-panel {
@@ -83,7 +89,7 @@ export default {
   margin-left: 10px;
 }
 .scene_nav_button {
-  width: 170px;
+  width: 200px;
   height: 50px;
   border-width: 0px;
   background: #9393938c;
@@ -92,7 +98,7 @@ export default {
 }
 
 .scene_nav_button.o-active {
-  background:#173f59f5
+  background:#333333
 }
 .scene_nav_button:hover {
   background:#383838bf;

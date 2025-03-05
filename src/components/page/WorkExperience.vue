@@ -161,7 +161,7 @@ export default {
 }
 
 .v-card {
-  background:#fffff;
+  background: #ffffff;
   transition: transform 0.3s ease-in-out;
 }
 

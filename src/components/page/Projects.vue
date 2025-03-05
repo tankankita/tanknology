@@ -47,7 +47,7 @@ export default {
   data() {
     return {
       allProjects: Projects,
-      activeIndexType: "AR",
+      activeIndexType: "WEB",
     };
   },
   methods: {
@@ -73,11 +73,10 @@ export default {
   height: 100%;
   padding: 2%;
   padding-top: 0;
+  animation: 0.3s ease-out 0s 1 slideInFromRight;
+  background: #c4c4c4;
 }
 
-.projects-wrapper {
-  animation: 0.3s ease-out 0s 1 slideInFromRight;
-}
 
 @keyframes slideInFromRight {
   0% {
@@ -91,17 +90,18 @@ export default {
 .projects-container {
   width: 100%;
   height: 100%;
-  padding: 3%;
+  padding: 5%;
 }
 .project-header {
   width: 100%;
   height: 100px;
   font-size: 34px;
-  color: white;
+  color: black;
   margin: 0 auto;
   text-align: center;
   padding-top: 50px;
   margin-bottom: 16px;
+  font-weight:600;
 }
 
 .line {
@@ -118,10 +118,11 @@ export default {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-auto-rows: 500px;
+  grid-auto-rows: 650px;
 }
+
 .project {
   width: 300px;
-  height: 500px;
+  height: 700px;
 }
 </style>

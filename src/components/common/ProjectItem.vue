@@ -26,11 +26,7 @@
       </div>
     </div>
     <div class="project-item__links-wrapper">
-      <div class="project-item__github-button" @click="onProjectClick">GITHUB</div>
-      <div class="project-item__play-button" 
-      :class="{
-				'project-item__play-button--disable': !hasVideo,
-			}" @click="openVideoLink">DEMO</div>
+      <div class="project-item__github-button" @click="onProjectClick">GIT</div>
     </div>
   </div>
 </template>
@@ -87,11 +83,11 @@ export default {
 </script>
 
 <style scoped>
+
 .project-item {
-  width: 300px;
-  height: 500px;
-  background: white;
   z-index: 1;
+  height:500px;
+  width:300px;
   top: 0;
   transition: top ease 0.2s;
 }
@@ -129,10 +125,9 @@ export default {
   right: 0;
   background-color: black;
   overflow: hidden;
-  width: 80%;
+  width: 100%;
   height: 0;
   transition: 0.5s ease;
-  margin: 0px 10% 0px 10%;
   opacity: 0.85;
   color: white;
   cursor: pointer;
@@ -145,26 +140,22 @@ export default {
 }
 
 .project-item__image {
-  width: 100%;
-  height: 420px;
+  width: 300px;
+  height: 500px;
 }
 
 
 
 .image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background: black;
-  width: 80%;
-  height: auto;
-  display: block;
-  margin: 0px 10% 0px 10%;
+
 }
 
 .project-item__name-tag {
   transition: 0.5s ease;
   width: fit-content;
-
-  height: 8%;
+  font-weight: 600;;
+  height: 7%;
   background: white;
   position: absolute;
   top: 35px;
@@ -172,6 +163,8 @@ export default {
   padding-left: 10px;
   padding-right: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .project-links {
   width: 15%;
@@ -180,41 +173,17 @@ export default {
   margin-top: 10px;
 }
 
-.video-link {
-  width: 28%;
-}
-
-.video-icon {
-  font-size: 30px;
-  margin-left: 20px;
-}
-
-.video-icon:hover {
-  cursor: pointer;
-  color: #087896;
-}
-
-
-/* Links */
-
-.project-item__links-wrapper {
-  margin-top: 10px;
-  padding-left: 60px;
-  padding-right: 30px;
-}
-
 .project-item__github-button {
-    height: 40px;
-    width: 42%;
+    height: 50px;
+    width: 100%;
     display: inline-block;
-    background: #204760;
+    background: #1d1d1de6;
     cursor: pointer;
-    border-radius: 10px;
     color: white;
     padding-top: 7px;
     text-align: center;
     font-size: 17px;
-    margin-left: -6px;
+    font-weight: 600;
 }
 
 .github-icon {
@@ -230,7 +199,7 @@ export default {
     height: 40px;
     width: 42%;
     display: inline-block;
-    background: #204760;
+    background: #686868;
     cursor: pointer;
     border-radius: 10px;
     color: white;

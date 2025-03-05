@@ -1,27 +1,23 @@
 [
-        {
-                "id": 1,
-                "text": "AUGMENTED REALITY",
-                "projectType": "AR"
-        },
+
         {
                 "id": 2,
-                "text": "VIRTUAL REALITY",
-                "projectType": "VR"
+                "text": "WEB DEVELOPMENT",
+                "projectType": "WEB"
+        },
+        {
+                "id": 1,
+                "text": "EXTENDED REALITY",
+                "projectType": "XR"
         },
         {
                 "id": 3,
-                "text": "WEB DEVELOPMENT",
-                "projectType": "W"
+                "text": "MOBILE DEVELOPMENT",
+                "projectType": "MOB"
         },
         {
                 "id": 4,
-                "text": "MOBILE DEVELOPMENT",
-                "projectType": "M"
-        },
-        {
-                "id": 5,
                 "text": "ALGORITHMS",
-                "projectType": "P"
+                "projectType": "ALG"
         }
 ]
